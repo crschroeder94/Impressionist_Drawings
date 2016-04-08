@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:layout_weight="1.9"
+            android:weightSum="2">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/viewImage"
+                android:layout_weight="1" />
+
+            <edu.umd.hcil.impressionistpainter434.ImpressionistView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/viewImpressionist"
+                android:layout_weight="1"
+                android:background="#f5f5f5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:layout_weight="0.1">
+
+            <Button
+                android:layout_width="234dp"
+                android:layout_height="wrap_content"
+                android:text="Download Images"
+                android:id="@+id/buttonDownloadImages"
+                android:onClick="onButtonClickDownloadImages"/>
+
+            <Button
+                android:layout_width="158dp"
+                android:layout_height="wrap_content"
+                android:text="Load Image"
+                android:id="@+id/buttonLoadImage"
+                android:onClick="onButtonClickLoadImage"/>
+
+            <Button
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:text="Brush"
+                android:id="@+id/buttonBrush"
+                android:onClick="onButtonClickSetBrush"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear"
+                android:width="3dp"
+                android:id="@+id/buttonClear"
+                android:onClick="onButtonClickClear"
+                android:layout_weight="0.36" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save Image"
+                android:id="@+id/buttonSave"
+                android:onClick="onButtonClickSave"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.32" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Photo"
+                android:id="@+id/buttonPhoto"
+                android:onClick="onButtonClickTakePhoto"
+                android:layout_weight="0.27" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menuCircle"
+        android:title="Bubbles"
+        />
+
+    <item android:id="@+id/menuSketch"
+        android:title="Sketch" />
+
+    <item android:id="@+id/menuSquare"
+        android:title="Square" />
+
+
+
+
+
+</menu>
