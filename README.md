@@ -22,3 +22,5 @@ sources:
 //http://stackoverflow.com/questions/23053933/how-to-apply-the-grayscale-effect-to-the-bitmap-image
 
 Demo at : https://www.youtube.com/watch?v=OYGZC-M_MbA
+
+To run this application, one must do the following 1. Go to MyDrawingTool/app/src/main/java/edu/umd/hcil/impressionistpainter434 in the git repo 2. run MainActivity.java
